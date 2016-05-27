@@ -11,6 +11,5 @@ class Log
 {
     public static function write($msg)
     {
-        \SeasLog::info($msg);
     }
 }

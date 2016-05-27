@@ -4,5 +4,11 @@
     "vrana/notorm": "dev-master",
     "slim/twig-view": "^2.1",
     "monolog/monolog": "^1.17"
+  },
+  "autoload": {
+    "psr-0": {
+      "application\\libs":"./application/",
+      "application\\models":"./application/"
+    }
   }
 }
