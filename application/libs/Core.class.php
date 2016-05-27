@@ -5,7 +5,7 @@
  * Date: 2016/5/26
  * Time: 15:16
  */
-namespace application\libs;
+namespace libs;
 
 use PDO;
 

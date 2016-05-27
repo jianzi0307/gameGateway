@@ -5,7 +5,7 @@
  * Date: 2016/5/26
  * Time: 15:12
  */
-namespace application\libs;
+namespace libs;
 
 /**
  * 配置类

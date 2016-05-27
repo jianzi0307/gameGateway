@@ -4,7 +4,7 @@ error_reporting(E_ALL);
 
 require '../vendor/autoload.php';
 
-use application\libs\Config;
+use libs\Config;
 
 require __DIR__ .'/../application/configs/config.php';
 

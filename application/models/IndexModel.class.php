@@ -5,7 +5,7 @@
  * Date: 2016/5/27
  * Time: 14:22
  */
-namespace application\models;
+namespace models;
 
 class IndexModel extends BaseModel
 {

@@ -17,7 +17,7 @@ $app_config = array(
     'app.platform_login_key' => '6c517e87a0295858314b8d7fdcfadcd3',
     'app.platform_exchange_key' => '57256ec1110fed1a20a9e9a8663d3752'
 );
-\application\libs\Config::write('app_config', $app_config);
+\libs\Config::write('app_config', $app_config);
 
 //数据库配置
 $db_config = array(
@@ -27,7 +27,7 @@ $db_config = array(
     'db.user' => 'root',
     'db.password' => ''
 );
-\application\libs\Config::writeAry($db_config);
+\libs\Config::writeAry($db_config);
 
 //Slim配置
 $slim_config = [
@@ -45,4 +45,4 @@ $slim_config = [
         ],
     ],
 ];
-\application\libs\Config::write('slim_config', $slim_config);
+\libs\Config::write('slim_config', $slim_config);

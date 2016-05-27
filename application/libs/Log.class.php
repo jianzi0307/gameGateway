@@ -5,7 +5,7 @@
  * Date: 2016/5/26
  * Time: 15:28
  */
-namespace application\libs;
+namespace libs;
 
 class Log
 {

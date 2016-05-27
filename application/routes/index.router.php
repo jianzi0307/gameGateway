@@ -1,10 +1,9 @@
 <?php
-use application\models\IndexModel;
-
+use models\IndexModel;
 // Routes
 $app->get('/', function ($request, $response, $args)  {
     //$this->logger->info("Slim-Skeleton '/' route");
-    $indexModel = new IndexModel();
+    $indexModel = new \models\IndexModel();
 
     print_r($args);die;
 

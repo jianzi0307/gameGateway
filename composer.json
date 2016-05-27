@@ -7,8 +7,8 @@
   },
   "autoload": {
     "psr-0": {
-      "application\\libs":"./application/",
-      "application\\models":"./application/"
+      "libs\\":"./",
+      "models\\":"./"
     }
   }
 }

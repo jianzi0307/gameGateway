@@ -1,6 +1,5 @@
 <?php
-namespace application\models;
-
+namespace models;
 /**
  * Created by PhpStorm.
  * User: Administrator
